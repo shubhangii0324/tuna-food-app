@@ -2,42 +2,42 @@
     {
         "id": 1,
         "title": "Sushi combos for your next party",
-        "imageSrc": "assets/collections/collection1.png",
+        "imageSrc": "https://i.ibb.co/fMyRThm/collection1.png",
         "recipeCount": 150
 
     },
     {
         "id": 2,
         "title": "Everything Bagel",
-        "imageSrc": "assets/collections/collection2.png",
+        "imageSrc": "https://i.ibb.co/DfBLTx0/collection2.png",
         "recipeCount": 150
 
     },
     {
         "id": 3,
         "title": "Biriyani combos",
-        "imageSrc": "assets/collections/collection3.png",
+        "imageSrc": "https://i.ibb.co/VB6RF4x/collection3.png",
         "recipeCount": 150
 
     },
     {
         "id": 4,
         "title": "Dinner recipe ideas",
-        "imageSrc": "assets/collections/collection4.png",
+        "imageSrc": "https://i.ibb.co/PcVVjpg/collection4.png",
         "recipeCount": 150
 
     },
     {
         "id": 5,
         "title": "The ultimate cookie frenzy",
-        "imageSrc": "assets/collections/collection5.png",
+        "imageSrc": "https://i.ibb.co/wc56vPn/collection5.png",
         "recipeCount": 150
 
     },
     {
         "id": 6,
         "title": "for the love of donuts",
-        "imageSrc": "assets/collections/collection6.png",
+        "imageSrc": "https://i.ibb.co/qJVqqvn/collection6.png",
         "recipeCount": 150
 
     }

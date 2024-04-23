@@ -2,21 +2,21 @@
     {
         "id": 1,
         "title": "Pumpkin marshmallow pie",
-        "imageSrc": "assets/recipes/fresh/freshRecipe1.svg"
+        "imageSrc": "https://i.ibb.co/j9tdL67/fresh-Recipe1.png"
     },
     {
         "id": 2,
         "title": "Pumpkin marshmallow pie",
-        "imageSrc": "assets/recipes/fresh/freshRecipe2.svg"
+        "imageSrc": "https://i.ibb.co/FbZynxH/fresh-Recipe2.png"
     },
     {
         "id": 3,
         "title": "Pumpkin marshmallow pie",
-        "imageSrc": "assets/recipes/fresh/freshRecipe3.svg"
+        "imageSrc": "https://i.ibb.co/P4WWGtq/fresh-Recipe3.png"
     },
     {
         "id": 4,
         "title": "Pumpkin marshmallow pie",
-        "imageSrc": "assets/recipes/fresh/freshRecipe4.svg"
+        "imageSrc": "https://i.ibb.co/6twHs79/fresh-Recipe4.png"
     }
 ]

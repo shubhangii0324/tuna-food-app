@@ -3,21 +3,21 @@
         "id": 1,
         "title": "Very Berry Healthy Summer Smoothie",
         "rating": 4,
-        "imageSrc": "assets/hero/hero1.svg"
+        "imageSrc": "https://i.ibb.co/9h0VNvL/hero1.png"
 
     },
     {
         "id": 2,
         "title": "Carrot And Ginger Soup",
         "rating": 4,
-        "imageSrc": "assets/hero/hero2.svg"
+        "imageSrc": "https://i.ibb.co/m4ZjDxc/hero2.png"
 
     },
     {
         "id": 3,
         "title": "Loaded Mixed Berries Mini Tart",
         "rating": 4,
-        "imageSrc": "assets/hero/hero3.svg"
+        "imageSrc": "https://i.ibb.co/28pHg5m/hero3.png"
 
     }
 ]
