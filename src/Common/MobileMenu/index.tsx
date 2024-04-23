@@ -28,7 +28,7 @@ class MobileMenu extends React.Component<Props> {
                     !token ?
                     <Link to={"/"} className='py-3 px-6 flex justify-center bg-secondary rounded items-center text-white text-center text-[0.9rem] font-bold leading-6'>Login/Register</Link>
                     :
-                    <button className='py-3 px-10 flex justify-center bg-secondary rounded items-center text-white text-center text-[0.9rem] font-bold leading-6' onClick={this.handleLogout}></button>
+                    <button className='py-3 px-10 flex justify-center bg-secondary rounded items-center text-white text-center text-[0.9rem] font-bold leading-6' onClick={this.handleLogout}>Logout</button>
                 }
                 <div className='border-b border-solid border-gray pt-5' />
             </nav>
