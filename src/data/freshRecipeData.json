@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Pumpkin marshmallow pie",
+        "imageSrc": "assets/recipes/fresh/freshRecipe1.svg"
+    },
+    {
+        "id": 2,
+        "title": "Pumpkin marshmallow pie",
+        "imageSrc": "assets/recipes/fresh/freshRecipe2.svg"
+    },
+    {
+        "id": 3,
+        "title": "Pumpkin marshmallow pie",
+        "imageSrc": "assets/recipes/fresh/freshRecipe3.svg"
+    },
+    {
+        "id": 4,
+        "title": "Pumpkin marshmallow pie",
+        "imageSrc": "assets/recipes/fresh/freshRecipe4.svg"
+    }
+]

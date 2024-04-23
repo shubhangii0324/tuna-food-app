@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import AppLayout from "./Components/AppLayout";
+import AuthComponent from "./Components/AuthPage";
+import ContactUs from "./Components/ContactUs";
+import HomePage from "./Components/HomePage";
+import Protected from "./Components/ProtectedRoute";
+import RecipePage from "./Components/RecipePage";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppLayout>
+        <Routes>
+          <Route element={<Protected />}>
+            <Route path="/recipe/:id" Component={RecipePage} />
+            <Route path="/contact" Component={ContactUs} />
+            <Route path="/" Component={HomePage} />
+          </Route>
+          <Route path="/signup" Component={AuthComponent} />
+          <Route path="/login" Component={AuthComponent} />
+        </Routes>
+      </AppLayout>
     </div>
   );
 }
