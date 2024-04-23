@@ -1,6 +1,8 @@
 import { ChangeEvent, Component } from 'react';
 import Image from '../../Common/Image';
 import Input from '../../Common/Input';
+import mailIcon from '../../assets/icons/mailIcon.svg';
+import contactCover from '../../assets/contactCover.svg';
 
 interface Props { }
 
@@ -80,7 +82,7 @@ class ContactUs extends Component<Props, State> {
                         <button className='flex w-full md:w-32 py-3 px-3 justify-center items-center gap-3 rounded bg-black text-white text-base font-semibold leading-6 capitalize mt-2'>
                             Submit
                             <Image
-                                src="assets/icons/mailIcon.svg"
+                                src={mailIcon}
                                 alt="mail-icon"
                             />
                         </button>
@@ -88,7 +90,7 @@ class ContactUs extends Component<Props, State> {
                 </div>
                 <div className='hidden md:flex justify-end basis-1/2 rounded-full max-w-[40vw] absolute right-0'>
                     <Image
-                        src='assets/contactCover.svg'
+                        src={contactCover}
                         className='object-cover rounded-s-[42px] w-full h-full'
                         alt="contact-cover"
                     />

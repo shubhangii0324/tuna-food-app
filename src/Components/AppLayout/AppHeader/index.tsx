@@ -6,6 +6,7 @@ import { IoIosClose } from "react-icons/io";
 import { useState } from 'react';
 import MobileMenu from '../../../Common/MobileMenu';
 import { logout } from '../../../firebase/auth';
+import logo from '../../../assets/logo.svg';
 
 function AppHeader() {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -21,7 +22,7 @@ function AppHeader() {
             <div className='flex justify-between w-full items-center px-5 md:px-0 md:mx-[15.6vw]'>
                 <Link to={"/"} className='py-7 md:py-12'>
                     <Image
-                        src='assets/logo.svg'
+                        src={logo}
                         alt="tastebites-logo"
                         className='max-w-[161px]'
                     />

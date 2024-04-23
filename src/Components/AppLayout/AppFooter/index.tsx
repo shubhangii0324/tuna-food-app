@@ -1,7 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Image from '../../../Common/Image';
+import logo from '../../../assets/logo.svg';
 
 function AppFooter() {
     return (
@@ -10,7 +10,7 @@ function AppFooter() {
                 <div className='md:flex justify-between'>
                     <Link to={"/"} className='py-3 md:py-12 flex justify-center md:block'>
                         <Image
-                            src='assets/logo.svg'
+                            src={logo}
                             alt="tastebites-logo"
                         />
                     </Link>

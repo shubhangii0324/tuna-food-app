@@ -6,20 +6,16 @@ interface Props {
     className?: string;
 }
 
-interface State {
-    optimizedUrl: string;
-}
+interface State {}
 
 class Image extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props);
-        this.state = {
-            optimizedUrl: `${process.env.PUBLIC_URL}/${props.src}`,
-        };
+        this.state = {};
     }
     render() {
-        const { alt, className } = this.props;
-        return <img src={this.state.optimizedUrl} alt={alt} className={className} />;
+        const { alt, className, src } = this.props;
+        return <img src={src} alt={alt} className={className} />;
     }
 }
 

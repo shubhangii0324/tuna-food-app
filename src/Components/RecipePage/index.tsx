@@ -1,6 +1,7 @@
 import Image from "../../Common/Image";
 import RecipeContent from "../../Common/RecipeContent";
 import recipe from "../../data/recipe.json";
+import recipeCoverImg from '../../assets/recipeCover.svg';
 
 
 function RecipePage() {
@@ -8,7 +9,7 @@ function RecipePage() {
     return (
         <section className="flex flex-col md:max-w-[75%] px-5 md:px-0 mx-0 md:mx-[15.6vw] gap-y-10">
             <Image
-                src="assets/recipeCover.svg"
+                src={recipeCoverImg}
                 alt="recipe-img"
                 className="w-full"
             />

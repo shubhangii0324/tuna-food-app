@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Image from '../Image';
 import LoginLayout from './Login';
 import SignupLayout from './Signup';
+import authCover from '../../assets/authCover.png'
 
 interface Props {
     isLogin: boolean;
@@ -27,7 +28,7 @@ class AuthLayout extends Component<Props> {
                 </div>
                 <div className='hidden md:flex justify-end basis-1/2 rounded-full max-w-[45%] absolute right-0'>
                     <Image
-                        src='assets/authCover.png'
+                        src={authCover}
                         className='object-cover rounded-s-[42px] w-full h-full'
                         alt="cover-img"
                     />

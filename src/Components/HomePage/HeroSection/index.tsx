@@ -1,6 +1,7 @@
 import HeroCard from "../../../Common/HeroCard";
 import Image from "../../../Common/Image";
 import heroData from '../../../data/heroData.json';
+import aboutCover from '../../../assets/about.svg';
 
 function HeroSection() {
 
@@ -22,7 +23,7 @@ function HeroSection() {
             <article id="about" className="w-full bg-white shadow-about md:flex justify-start py-8 px-5 md:pl-8 md:pr-[3vw] gap-x-12">
                 <div>
                     <Image
-                        src="assets/about.svg"
+                        src={aboutCover}
                         alt="about"
                         className="md:max-w-[27vw]"
                     />

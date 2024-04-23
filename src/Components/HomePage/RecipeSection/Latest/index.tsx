@@ -1,6 +1,8 @@
 
 import { Link } from 'react-router-dom';
 import Image from '../../../../Common/Image';
+import latestRecipeImg from '../../../../assets/recipes/latest.svg';
+import profileIcon from '../../../../assets/userProfileIcon.svg';
 
 function LatestRecipes() {
     const recipeId = "pumpkin-pie"
@@ -13,7 +15,7 @@ function LatestRecipes() {
                         <Link key={recipeId + index} to={`/recipe/${recipeId}`} className='bg-white border border-solid border-[#E1E1E1]'>
                             <div className=''>
                                 <Image
-                                    src='assets/recipes/latest.svg'
+                                    src={latestRecipeImg}
                                     alt='latest-recipe'
                                 />
                             </div>
@@ -23,7 +25,7 @@ function LatestRecipes() {
                                 <div className='flex justify-between items-center py-4'>
                                     <div className="flex justify-start items-center gap-x-3">
                                         <Image
-                                            src='assets/userProfileIcon.svg'
+                                            src={profileIcon}
                                             alt='user-icon'
                                             className='w-9 h-9'
                                         />
