@@ -47,32 +47,32 @@ Please find screenshots of the app attached :
 
 ## LOGIN SCREEN :
 
-![Alt text](https://drive.google.com/file/d/1iAUGyxNImC-fEyeb0_Iu9790uSB4PczB/view?usp=sharing "")
-![Alt text](https://drive.google.com/file/d/1_JAmoVYTTy2tCyaPKzvZDeVTjABc8H6Z/view?usp=sharing "")
+![screenshot](https://i.ibb.co/dpQTVbL/login1.png)
+![screenshot](https://i.ibb.co/VYLpC0M/login2.png)
 
 ## REGISTER SCREEN :
 
-![Alt text](https://drive.google.com/file/d/1PQbNPQkVT_Hp6_HXbQ6kaTF2o_nCWR8c/view?usp=sharing "")
+![screenshot](https://i.ibb.co/XCDh7tF/register.png)
 
 ## HOMEPAGE :
-![Alt text](https://drive.google.com/file/d/1vhvjG-OYxF_jd39hKCG5u2-PbETEJ-Xc/view?usp=sharing "")
-![Alt text](https://drive.google.com/file/d/1lHOpXE18d9D1ijEnttL2Ixqn5YsVpW6j/view?usp=sharing "")
-![Alt text](https://drive.google.com/file/d/17o1v9qpr0UUzt0ReWCXgS0XI8vwvCkby/view?usp=sharing "")
-![Alt text](https://drive.google.com/file/d/1YmRvk8JRMYJ7bX63dctFqHBIGw6cT1xT/view?usp=sharing "")
+![screenshot](https://i.ibb.co/WpShD6Q/home1.png)
+![screenshot](https://i.ibb.co/dkB7P8K/home2.png)
+![screenshot](https://i.ibb.co/SRncZ5Z/home3.png)
+![screenshot](https://i.ibb.co/R9GCdyc/home4.png)
 
 ## ABOUT PAGE :
 
-![Alt text](https://drive.google.com/file/d/1sGuQLuPzv1Al-zV4zk9pXQ2ErHmqU9Lh/view?usp=sharing "")
+![screenshot](https://i.ibb.co/3BfwNmw/about.png")
 
 ## RECIPE PAGE :
 
-![Alt text](https://drive.google.com/file/d/1LYqvVIoj6yDg90B74u40yFQipqmYrwfg/view?usp=sharing "")
-![Alt text](https://drive.google.com/file/d/11aAc8j7e22b0ZkqmGNyH3OLo_I3NEav9/view?usp=sharing "")
+![screenshot](https://i.ibb.co/gThYq2C/recipe1.png)
+![screenshot](https://i.ibb.co/XkTKGwf/recipe2.png)
 
 ## CONTACT US :
 
-![Alt text](https://drive.google.com/file/d/1onXUKFB6q2ypm-IDayoSFRr3ikojr_EA/view?usp=sharing "")
+![screenshot](https://i.ibb.co/K6vZyW9/contact-Us.png)
 
 
-The app is deployed at :
+The app is deployed at : [https://tuna-food-app.vercel.app/](https://tuna-food-app.vercel.app/)
 
